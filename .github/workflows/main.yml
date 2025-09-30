@@ -35,6 +35,5 @@ jobs:
       
     - name: Build (if needed)
       run: npm run build
-      run: npm run build
       working-directory: ./newch
       # Remove or modify this if you don’t have a build script
