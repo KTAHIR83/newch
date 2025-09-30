@@ -15,7 +15,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x, 18.x]  # Add/remove versions as needed
+        node-version: [18.x]  # Add/remove versions as needed
 
     steps:
     - name: Checkout repository
